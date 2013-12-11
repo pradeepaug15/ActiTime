@@ -16,7 +16,7 @@ public class ProjectLogic {
 	
 	public void ScreenShots() throws IOException{
 		File srcFile = Objects.efwd.getScreenshotAs(OutputType.FILE);
-		File destDir = new File("C:\\Users\\310047178\\workspace\\AutomActiTime_Office\\ScreenShots");
+		File destDir = new File("F:\\Selenium Materials\\Study Materials\\workspace\\workspace\\AutomActiTime_Office\\ScreenShots");
 		FileUtils.copyFileToDirectory(srcFile, destDir);
 	}
 	
