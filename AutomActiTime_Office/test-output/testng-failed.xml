@@ -5,7 +5,7 @@
     <classes>
       <class name="com.TestNG.TestCases.LoginTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="loginTest" invocation-numbers="6 7"/>
         </methods>
       </class> <!-- com.TestNG.TestCases.LoginTest -->
     </classes>
